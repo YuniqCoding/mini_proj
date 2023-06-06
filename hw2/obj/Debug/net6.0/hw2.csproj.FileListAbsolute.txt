@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/hw2/bin/Debug/net6.0/hw2
+/Users/totquf52/Projects/project_1/hw2/bin/Debug/net6.0/hw2.deps.json
+/Users/totquf52/Projects/project_1/hw2/bin/Debug/net6.0/hw2.runtimeconfig.json
+/Users/totquf52/Projects/project_1/hw2/bin/Debug/net6.0/hw2.dll
+/Users/totquf52/Projects/project_1/hw2/bin/Debug/net6.0/hw2.pdb
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.dll
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/refint/hw2.dll
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.pdb
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/hw2.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/hw2/obj/Debug/net6.0/ref/hw2.dll

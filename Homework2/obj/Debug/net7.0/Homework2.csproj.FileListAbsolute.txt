@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/Homework2/bin/Debug/net7.0/Homework2
+/Users/totquf52/Projects/project_1/Homework2/bin/Debug/net7.0/Homework2.deps.json
+/Users/totquf52/Projects/project_1/Homework2/bin/Debug/net7.0/Homework2.runtimeconfig.json
+/Users/totquf52/Projects/project_1/Homework2/bin/Debug/net7.0/Homework2.dll
+/Users/totquf52/Projects/project_1/Homework2/bin/Debug/net7.0/Homework2.pdb
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.dll
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/refint/Homework2.dll
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.pdb
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/Homework2.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/Homework2/obj/Debug/net7.0/ref/Homework2.dll
