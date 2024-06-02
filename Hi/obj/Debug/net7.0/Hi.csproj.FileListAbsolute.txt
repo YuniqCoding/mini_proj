@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/Hi
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/Hi.deps.json
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/Hi.runtimeconfig.json
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/Hi.dll
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/Hi.pdb
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.dll
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/refint/Hi.dll
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.pdb
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/Hi.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/ref/Hi.dll

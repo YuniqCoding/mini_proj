@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/kiosk
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/kiosk.deps.json
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/kiosk.runtimeconfig.json
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/kiosk.dll
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/kiosk.pdb
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.dll
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/refint/kiosk.dll
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.pdb
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/kiosk.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/ref/kiosk.dll

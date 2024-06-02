@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/camp
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/camp.deps.json
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/camp.runtimeconfig.json
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/camp.dll
+/Users/totquf52/Projects/project_1/Hi/bin/Debug/net7.0/camp.pdb
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.dll
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/refint/camp.dll
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.pdb
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/camp.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/Hi/obj/Debug/net7.0/ref/camp.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/totquf52/Projects/project_1/signin/signin.csproj",
-      "projectName": "signin",
-      "projectPath": "/Users/totquf52/Projects/project_1/signin/signin.csproj",
+      "projectUniqueName": "/Users/totquf52/Projects/project_1/signin/kiosk.csproj",
+      "projectName": "kiosk",
+      "projectPath": "/Users/totquf52/Projects/project_1/signin/kiosk.csproj",
       "packagesPath": "/Users/totquf52/.nuget/packages/",
       "outputPath": "/Users/totquf52/Projects/project_1/signin/obj/",
       "projectStyle": "PackageReference",
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

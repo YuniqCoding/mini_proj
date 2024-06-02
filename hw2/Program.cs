@@ -1,91 +1,186 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
-namespace homework1
+namespace Calculator2
 {
-    delegate void Delegate(List<string> a);
-    class Program
+
+    public class Parser
+    {
+        private const string OPERATION_REG = "[+\\-*/]";
+        private const string NUMBER_REG = "^[0-9]*$";
+
+        private static Calculator calculator = new Calculator();
+
+        public Parser parseFirstNum(string firstInput)
+        {
+            if (!Regex.IsMatch(firstInput, NUMBER_REG)) {
+                throw new BadInputException("정수값");
+            }   
+            calculator.setFirstNumber(int.Parse(firstInput));
+
+            return this;
+        }
+
+        public Parser parseSecondNum(string secondInput)
+        {
+            if (!Regex.IsMatch(secondInput, NUMBER_REG)) {
+                throw new BadInputException("정수값");
+            }
+            calculator.setSecondNumber(int.Parse(secondInput));
+
+            return this;
+        }
+
+        public Parser parseOperator(string operationInput)
+        {
+            if (!Regex.IsMatch(operationInput,OPERATION_REG)) {
+                throw new BadInputException("사칙 연산의 연산자");
+            }
+
+            switch (operationInput) {
+                case "+":
+                    calculator.setOperation(new AddOperation());
+                    break;
+                case "-":
+                    calculator.setOperation(new SubstractOperation());
+                    break;
+                case "*":
+                    calculator.setOperation(new MultiplyOperation());
+                    break;
+                case "/":
+                    calculator.setOperation(new DivideOperation());
+                    break;
+            }
+
+            return this;
+        }
+
+        public double executeCalculator()
+        {
+            return calculator.calculate();
+        }
+    }
+    public class BadInputException : Exception
+    {
+        public BadInputException(string message) : base(message)
+        {
+        }
+    }
+    public class Calculator
+    {
+        private int firstNumber;
+        private int secondNumber;
+
+        private AbstractOperation operation;
+
+        public Calculator(AbstractOperation operation)
+        {
+            this.operation = operation;
+        }
+
+        public Calculator()
+        {
+        }
+
+        public void setOperation(AbstractOperation operation)
+        {
+            this.operation = operation;
+        }
+
+        public void setFirstNumber(int firstNumber)
+        {
+            this.firstNumber = firstNumber;
+        }
+
+        public void setSecondNumber(int secondNumber)
+        {
+            this.secondNumber = secondNumber;
+        }
+
+        public double calculate()
+        {
+            double answer = 0;
+            answer = operation.operate(this.firstNumber, this.secondNumber);
+            return answer;
+        }
+
+    }
+    public abstract class AbstractOperation
+    {
+        public abstract double operate(int firstNumber, int secondNumber);
+    }
+    public class CalculatorApp
     {
 
-        //1번
-
-        struct Pokemon
+        public static bool start()
         {
-            public int number;
-            public string name;
-            public string type;
-            public double height;
-            public double weight;
-            public double attack;
-            public double defense;
-            public double speed;
+            Parser parser = new Parser();
 
-            public Pokemon(int number, string name, string type, double height, double weight,
-                double attack, double defense, double speed)
-            {
-                this.number = number;
-                this.name = name;
-                this.type = type;
-                this.height = height;
-                this.weight = weight;
-                this.attack = attack;
-                this.defense = defense;
-                this.speed = speed;
-            }
+            Console.WriteLine("첫번째 숫자를 입력해주세요!");
+            string firstInput = Console.ReadLine();
+            parser.parseFirstNum(firstInput);
+        
+
+            Console.WriteLine("연산자를 입력해주세요!");
+            string oper = Console.ReadLine();
+            parser.parseOperator(oper);
+
+            Console.WriteLine("두번째 숫자를 입력해주세요!");
+            string secondInput = Console.ReadLine();
+            parser.parseSecondNum(secondInput);
+
+            Console.WriteLine("연산 결과 : " + parser.executeCalculator());
+            return true;
         }
+
+
+    }
+    public class AddOperation : AbstractOperation
+    {
+        public override double operate(int firstNumber, int secondNumber)
+        {
+            return firstNumber + secondNumber;
+        }
+    }
+
+    public class SubstractOperation : AbstractOperation
+    {
+        public override double operate(int firstNumber, int secondNumber)
+        {
+            return firstNumber - secondNumber;
+        }
+    }
+    public class MultiplyOperation : AbstractOperation
+    {
+        public override double operate(int firstNumber, int secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
+    }
+    public class DivideOperation : AbstractOperation
+    {
+        public override double operate(int firstNumber, int secondNumber)
+        {
+            return firstNumber / secondNumber;
+        }
+    }
+    public class Program
+    {
         static void Main(string[] args)
         {
-            Pokemon[] arrPokemon =
-             {
-                new Pokemon(10, "caterpie", "bug", 0.3, 2.9, 30, 35, 45),
-                new Pokemon(25, "pikachu", "electric", 0.4, 6, 55, 40, 90),
-                new Pokemon(26, "raichu", "electric", 0.8, 30, 90, 55, 110),
-                new Pokemon(133, "eevee", "normal", 0.3, 6.5, 55, 50, 55),
-                new Pokemon(152, "chikoirita", "grass", 0.9, 6.4, 49, 65, 45)
-            };
+            bool calculateEnded = false;
 
-            var aData1 =
-                from data in arrPokemon
-                where data.name == "eevee"
-                select data.type;
-            var aData2 =
-                from data in arrPokemon
-                where data.name == "caterpie"
-                select (data.attack, data.defense);
-            var aData3 =
-                from data in arrPokemon
-                where data.weight >6
-                select data.name;
-            var aData4 =
-                from data in arrPokemon
-                where data.weight >= 6 && data.height >0.5
-                select data.name;
-            var aData5=
-                from data in arrPokemon
-                where Math.Abs(data.attack - data.defense)>= 10
-                select (data.name,data.attack,data.defense);
-
-            foreach (var data in aData1)
+            while (!calculateEnded)
             {
-                Console.WriteLine("answer1: {0}", data);
-            }
-            foreach (var data in aData2)
-            {
-                Console.WriteLine("answer2: {0}", data);
-            }
-            foreach (var data in aData3)
-            {
-                Console.WriteLine("answer3: {0}", data);
-            }
-            foreach (var data in aData4)
-            {
-                Console.WriteLine("answer4: {0}", data);
-            }
-            foreach (var data in aData5)
-            {
-                Console.WriteLine("answer5: {0}", data);
+                try
+                {
+                    calculateEnded = CalculatorApp.start();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("잘못된 입력입니다! " + e.Message + "을 입력해주세요!");
+                }
             }
         }
-
-
     }
 }

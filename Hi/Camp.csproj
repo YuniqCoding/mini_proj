@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="grade\" />
+    <None Remove="service\" />
+    <None Remove="repository\" />
+    <None Remove="view\" />
+    <None Remove="model\" />
+    <None Remove="context\" />
+    <None Remove="enums\" />
+    <None Remove="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="grade\" />
+    <Folder Include="service\" />
+    <Folder Include="repository\" />
+    <Folder Include="view\" />
+    <Folder Include="model\" />
+    <Folder Include="context\" />
+    <Folder Include="enums\" />
+    <Folder Include="data\" />
+  </ItemGroup>
+</Project>

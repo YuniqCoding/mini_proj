@@ -1,28 +1,66 @@
-﻿<Properties StartupConfiguration="{6C85B67B-6EF0-4518-BDFC-AE3F2B9C6CDF}|Default">
+﻿<Properties StartupConfiguration="{BEDABFD2-AD89-451A-94AA-A84175BBFA37}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Homework2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Homework1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.signin FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.project__1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="project_1/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.camp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.kiosk PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Camp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Hotel PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hi/Program.cs">
     <Files>
-      <File FileName="project_1/Program.cs" Line="185" Column="10" />
+      <File FileName="Hi/Program.cs" Line="135" Column="1" />
+      <File FileName="signin/Program.cs" />
+      <File FileName="project_1/db.properties" />
+      <File FileName="project_1/Program.cs" Line="127" Column="1" />
       <File FileName="hw2/Program.cs" />
       <File FileName="Homework2/Program.cs" />
-      <File FileName="Hi/Program.cs" />
+      <File FileName="Homework2/MyArray.cs" />
+      <File FileName="signin/Menu.cs" />
+      <File FileName="signin/Order.cs" />
+      <File FileName="signin/ManagementContext.cs" />
+      <File FileName="project_1/HotelContext.cs" />
+      <File FileName="signin/MenuContext.cs" />
+      <File FileName="project_1/Room.cs" />
+      <File FileName="project_1/Reservation.cs" />
+      <File FileName="project_1/CustomerContext.cs" />
+      <File FileName="Hi/data/DummyData.cs" Line="63" Column="13" />
+      <File FileName="Hi/model/Student.cs" Line="40" Column="1" />
+      <File FileName="Hi/model/Score.cs" Line="25" Column="1" />
+      <File FileName="Hi/model/Subject.cs" Line="25" Column="1" />
+      <File FileName="Hi/service/ScoreService.cs" Line="20" Column="1" />
+      <File FileName="Hi/service/StudentService.cs" Line="21" Column="1" />
+      <File FileName="Hi/service/SubjectService.cs" Line="48" Column="35" />
+      <File FileName="Hi/context/Constants.cs" Line="1" Column="1" />
+      <File FileName="Hi/repository/ScoreStore.cs" Line="29" Column="10" />
+      <File FileName="Hi/repository/SubjectStore.cs" Line="11" Column="22" />
+      <File FileName="Hi/repository/StudentStore.cs" Line="9" Column="9" />
+      <File FileName="Hi/context/CampContext.cs" Line="27" Column="1" />
+      <File FileName="Hi/grade/ChoicePolicy.cs" Line="37" Column="1" />
+      <File FileName="Hi/grade/MandatoryPolicy.cs" Line="36" Column="1" />
+      <File FileName="Hi/grade/IGradePolicy.cs" Line="1" Column="1" />
+      <File FileName="Hi/view/Display.cs" Line="44" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="project_1" expanded="True" />
+          <Node name="project_1" expanded="True">
+            <Node name="camp">
+              <Node name="context" expanded="True" />
+              <Node name="data" expanded="True" />
+              <Node name="grade" expanded="True" />
+              <Node name="repository" expanded="True" />
+              <Node name="service" expanded="True" />
+              <Node name="view" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Homework1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Hi FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Homework2 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

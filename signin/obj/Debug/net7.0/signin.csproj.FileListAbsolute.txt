@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/signin
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/signin.deps.json
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/signin.runtimeconfig.json
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/signin.dll
+/Users/totquf52/Projects/project_1/signin/bin/Debug/net7.0/signin.pdb
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.dll
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/refint/signin.dll
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.pdb
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/signin.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/signin/obj/Debug/net7.0/ref/signin.dll

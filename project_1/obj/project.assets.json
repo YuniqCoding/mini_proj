@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/totquf52/Projects/project_1/project_1/project_1.csproj",
-      "projectName": "project_1",
-      "projectPath": "/Users/totquf52/Projects/project_1/project_1/project_1.csproj",
+      "projectUniqueName": "/Users/totquf52/Projects/project_1/project_1/Hotel.csproj",
+      "projectName": "Hotel",
+      "projectPath": "/Users/totquf52/Projects/project_1/project_1/Hotel.csproj",
       "packagesPath": "/Users/totquf52/.nuget/packages/",
       "outputPath": "/Users/totquf52/Projects/project_1/project_1/obj/",
       "projectStyle": "PackageReference",
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

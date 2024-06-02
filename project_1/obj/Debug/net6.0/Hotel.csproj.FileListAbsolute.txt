@@ -1,0 +1,15 @@
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.csproj.AssemblyReference.cache
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.AssemblyInfoInputs.cache
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.AssemblyInfo.cs
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.csproj.CoreCompileInputs.cache
+/Users/totquf52/Projects/project_1/project_1/bin/Debug/net6.0/Hotel
+/Users/totquf52/Projects/project_1/project_1/bin/Debug/net6.0/Hotel.deps.json
+/Users/totquf52/Projects/project_1/project_1/bin/Debug/net6.0/Hotel.runtimeconfig.json
+/Users/totquf52/Projects/project_1/project_1/bin/Debug/net6.0/Hotel.dll
+/Users/totquf52/Projects/project_1/project_1/bin/Debug/net6.0/Hotel.pdb
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.dll
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/refint/Hotel.dll
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.pdb
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/Hotel.genruntimeconfig.cache
+/Users/totquf52/Projects/project_1/project_1/obj/Debug/net6.0/ref/Hotel.dll
